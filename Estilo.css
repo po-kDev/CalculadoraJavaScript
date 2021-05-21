@@ -1,0 +1,44 @@
+.calculadora{
+    background-color: rgb(6, 12, 49);
+    padding:0.5%;
+    top: 40%;
+    left:40%;
+    position: absolute;
+    transform:translate(-20%,-50%); 
+    width: 400px;
+    height: 400px;
+}
+
+.campos{
+    display: flex;
+    flex-direction: column;
+    background: rgb(104, 102, 102);
+    padding:20px;
+    margin: 30px 3px 3px 3px;
+}
+
+input[type="text"]{
+    border-radius: none;
+    border:none;
+    outline: none;  
+    pointer-events: none; 
+    text-align: right;
+    font-size: 20px;
+    background: rgb(104, 102, 102); 
+}
+
+.botones{
+    padding: 5px;
+}
+
+button{
+   padding: 22px;
+   font-size: 16px;
+   width: 19%;
+   background-color:white;
+}
+
+.cero{
+    width: 38.8%;
+}
+
